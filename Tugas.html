@@ -1,0 +1,227 @@
+<style>
+    body{
+        background-image: url(css/bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+<div>
+    <img src="css/bnnr.jpg" style="height: 50%; width: 100%;">
+</div>
+
+<div class="w3-bar w3-pale-green">
+    <button class="w3-bar-item w3-circle w3-round-xlarge w3-button" onclick="openGame('home')">Home</button>
+    <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('zelda')">Zelda</button>
+    <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('bald')">Baldur's Gate 3</button>
+    <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('SF')">Street Fighter 6</button>
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Lainnya</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('Spd')">Marvel's Spider-Man 2</button>
+            <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('rsd')">Resident Evil 4 Remake</button>
+            <button class="w3-bar-item w3-round-xlarge w3-button" onclick="openGame('val')">Valorant</button>
+        </div>
+    </div>
+    <button class="w3-bar-item w3-button" onclick="openGame('TS')">Tentang Saya</button>
+</div>
+
+<div id="home" class="w3-container game w3-animate-zoom w3-center" style="display: block;">
+    <br>
+    <h2 style="color: aqua;">
+        Selamat Datang
+    </h2>
+    <br>
+    <img src="css/ha.jpg">
+    <br>
+    <h3 style="color: aqua;">
+        Di Game Terbaik 2023
+    </h3>
+    <br>
+</div>
+
+<div id="zelda" class="w3-container w3-pale-blue game w3-padding w3-center w3-animate-top" style="display: none;">
+    <h1>
+        The Legend of Zelda: Tears of the Kingdom
+    </h1>
+    <center>
+    <img src="css/zelda.webp" style="width: 40%;">
+    </center>
+    <p>
+        Menurut OpenCritic, game terbaik yang dirilis pada 2023 adalah The Legend of Zelda: Tears of the Kingdom (TotK). Sekuel The Legend of Zelda: Breath of the Wild ini menceritakan usaha karakter Link dalam menyelamatkan dunia Hyrule dari serangan monster.
+    </p>
+    <p>
+        Ganondorf yang sepanjang seri Zelda menjadi musuh bebuyutan Link kembali bangkit dari kubur. Jadi, pengguna memiliki misi utama untuk menghentikan upaya jahat Ganondorf.
+    </p>
+    <p>
+        The Legend of Zelda: Tears of the Kingdom mendapatkan skor rata-rata 96 (dari 100) di OpenCritic. Dari 154 buah ulasan, sebanyak 97 persen di antaranya merekomendasikan pengguna untuk memainkan TotK.
+        Salah satunya adalah media IGN (memberi skor 10/10), yang mengatakan game dunia terbuka (open-world) ini menawarkan peta (map) yang lebih ambisius, kaya, dan kreatif ketimbang prekuelnya.
+    </p>
+    <div class="w3-container w3-padding w3-cyan">
+    <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/zelda.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="bald" class="w3-container w3-pale-red game w3-padding w3-center w3-animate-zoom" style="display: none;">
+    <h1>
+        Baldur's Gate 3
+    </h1>
+    <center>
+    <img src="css/baldurs.jpg" style="width: 40%;">
+    </center>
+    <p>
+        Baldur's Gate 3 yang belum lama ini menyabet enam penghargaan di ajang penghargaan game skala dunia, The Game Awards 2023. Game ini juga memenangkan kategori penghargaan game terbaik alias Game of the Year.
+    </p>
+    <p>
+        Sekuel dari Baldur's Gate 2: Shadows of Amn ini mengisahkan usaha pemain untuk menyingkirkan parasit yang menjangkitnya. Parasit ini mampu mengubah korbannya menjadi monster yang ganas.
+        Dalam perjalanan untuk membunuh parasit ini, pemain bakal bertemu berbagai sosok yang mengalami kondisi yang sama, yakni Gale, Astarion, Wyll, Lae'zel, dan Karlach.
+    </p>
+    <p>
+        Menurut situs GamesRadar (skor 5/5), game ini memiliki kedalaman yang luar biasa. Bahkan dalam bab pertama alias perkenalan, setiap misi bisa diselesaikan dengan cara atau pilihan yang bervariasi. Jadi, pengalaman setiap pemain bakal berbeda-beda.
+    </p>
+    <div class="w3-container w3-padding " style="background-color: pink;">
+        <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/baldurs.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="SF" class="w3-container w3-red game w3-padding w3-center w3-animate-bottom" style="display: none;">
+    <h1>
+        Street Fighter 6
+    </h1>
+    <center>
+    <img src="css/sf.png" style="width: 40%;">
+    </center>
+    <p>
+        Street Fighter 6 menghadirkan tiga mode utama yang mencakup World Tour, Fighting Ground, dan Battle Hub. World Tour merupakan salah satu mode yang paling menarik karena mengajak pemain untuk merancang desain karakter, sebelum menjelajahi lokasi di dunia seperti Amerika Serikat dan Prancis.
+    <p>
+        Di OpenCritic, game ini mendapatkan skor 92 dari 170 ulasan yang diterbitkan. Sebanyak 99 persen kritikus di antaranya merekomendasikan game ini. Situs IGN (skor 9/10) melayangkan pujiannya untuk mode singleplayer World Tour. Menurutnya, World Tour merupakan mode ambisius yang jauh lebih baik daripada mode cerita di sepanjang seri Street Fighter.
+    </p>
+    <p>
+        Hal ini ditambah juga dengan sistem Role-Playing Game (RPG) yang luas, karena gamer bisa membuat karakternya sendiri, menaikkan levelnya, dan mempelajari kemampuan (skill) baru.
+    </p>
+    <div class="w3-container w3-padding " style="background-color: palevioletred;">
+        <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/sf6.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="Spd" class="w3-container w3-black game w3-padding w3-center w3-animate-right" style="display: none;">
+    <h1>
+        Marvel's Spider-Man 2
+    </h1>
+    <center>
+    <img src="css/spd2.webp" style="width: 40%;">
+    </center>
+    <p>
+        Marvel's Spider-Man 2. Game eksklusif konsol PS5 ini menceritakan kisah Peter Parker dan Miles Morales yang mesti melindungi kota New York dari penjahat baru, termasuk Kraven the Hunter dan Venom. Pemain bakal bermain dengan Peter dan Miles secara bergantian. Mereka memiliki misi utama, misi sampingan, dan kemampuan yang berbeda.Contohnya, Peter yang menggunakan Symbiote Suit bisa mengeluarkan tentakel hitam untuk menyerang musuh, sedangkan Miles bisa menggunakan Venom Blast untuk menghasilkan gelombang petir biru.
+    <p>
+        Di situs OpenCritic, Marvel's Spider-Man 2 tercatat mendulang skor 90 poin dari 160 ulasan. Sebanyak 98 persen ulasan tersebut merekomendasikan pemain untuk mencicip sekuel dari Marvel's Spider-Man dan Marvel's Spider-Man: Miles Morales ini. Media game GamesRadar memberikan skor sempurna (5/5) untuk game superhero ini. Spider-Man 2 dikatakan sebagai game superhero terbaik dalam sejarah.
+    </p>
+    <p>
+        Hal ini dikarenakan oleh mekanisme pertarungan karakter Peter Parker dan Miles Morales saat melawan musuh serta bos, yang disebut menjadi standar baru untuk game superhero dan bahkan game berbujet tinggi (triple-A/AAA) pada umumnya. Kemudian, Marvel's Spider-Man 2 juga memiliki peta (map) yang makin luas diiringi dengan grafik yang fantastis. Terkait peta, pemain kini tidak hanya menelusuri Manhattan saja tetapi juga Brooklyn, Queens, dan Coney Island.
+    </p>
+    <div class="w3-container w3-padding " style="background-color:gray;">
+        <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/spd2.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="rsd" class="w3-container game w3-padding w3-center w3-animate-left" style="background-color: blueviolet; display: none;" >
+    <h1>
+        Resident Evil 4 Remake
+    </h1>
+    <center>
+    <img src="css/rsd.webp" style="width: 40%;">
+    </center>
+    <p>
+        Resident Evil 4 Remake, yakni versi pembuatan ulang (remake) dari Resident Evil 4 keluaran 2005. Game ini menghadirkan alur cerita yang sama dengan versi orisinalnya. Akan tetapi, Resident Evil 4 Remake dibekali dengan peningkatan kualitas grafis dan visual, misi sampingan (side quest) anyar, dan mode baru seperti "Mad Chainsaw Mode".
+    <p>
+        Ada pula konten cerita Separate Ways yang memungkinkan pemain berperan sebagai mata-mata bernama Ada Wong, bukan tokoh utama Resident Evil 4 Remake, Leon S. Kennedy. Resident Evil 4 Remake mendulang skor 92 di OpenCritic. Dari 200 ulasan yang dirangkum situs tersebut, sebanyak 98 persen di antaranya merekomendasikan gamer untuk menjajal game Capcom ini.
+    </p>
+    <p>
+        Menurut media game GameSpot (skor 10/10), Resident Evil 4 Remake merupakan remake yang menakjubkan. Sebab, game ini mampu mengingatkan penggemar lama akan kecemerlangan permainan klasik itu, sekaligus memperkenalkan generasi gamer terbaru ke salah satu game terpenting sepanjang masa. GameSpot memuji sistem pertempuran (combat) yang memuaskan, usaha Capcom untuk memberikan karakter Leon dan Ashley kepribadian yang lebih realistis, serta pengubahan alur cerita agar game tetap intens dari awal hingga akhir.
+    </p>
+    <div class="w3-container w3-padding " style="background-color:rgb(54, 0, 104); ">
+        <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/rsd.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="val" class="w3-container game w3-padding w3-center w3-animate-bottom" style="background-color: rgb(191, 126, 7); display: none;">
+    <h1>
+        Valorant
+    </h1>
+    <center>
+    <img src="css/valo.jpg" style="width: 40%;">
+    </center>
+    <p>
+        Valorant adalah game PC terbaik 2023 terlebih untuk bagian esports berdasarkan fakta bahwa Valorant menyabet 2 penghargaan penting di akhir tahun 2023, melalui Esports Awards 2023 dan The Game Awards 2023.
+        Mekanika Permainan yang Inovatif Valorant menggabungkan elemen-elemen dari berbagai game FPS yang sukses sebelumnya, namun memberikan sentuhan uniknya sendiri.            
+    <p>
+        Fokus pada Kerja Tim dan Taktik,Valorant tidak hanya mengandalkan keahlian individu, tetapi juga mempromosikan kerja tim yang solid dan komunikasi yang efektif. Setiap tim terdiri dari lima pemain yang bekerja sama untuk mencapai tujuan bersama.Grafis yang Memukau dan Stabilitas yang Tinggi Valorant menawarkan grafis yang indah dengan gaya visual yang khas, menciptakan dunia yang menarik dan detail.
+    </p>
+    <p>
+        Komunitas yang Aktif dan Kompetitif Valorant telah berhasil membangun komunitas yang aktif dan kompetitif sejak awal peluncurannya. Dukungan dari Riot Games dalam mengadakan turnamen resmi dan sistem ranking yang adil telah memperkuat daya tarik kompetitif game ini. 
+    </p>
+    <div class="w3-container w3-padding " style="background-color:rgb(198, 168, 1);">
+        <center/>
+        <h3>Cuplikan</h3>
+        <video controls autoplay src="css/valo.mp4" width="50%">
+        <p/>
+        </video>
+    </div>
+</div>
+
+<div id="TS" class="w3-row w3-animate-zoom game w3-round-xxlarge w3-center " style="display: none;">
+    <div class=" w3-half">
+    <p>
+        <img src="css/me.jpg" width="55%">
+    </p>
+    </div>
+    <div class=" w3-half">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="color: white;">
+        Nama : Pramana Adhitia Wijaksana
+    <br>
+        Kelas : IF2
+    <br>
+        NIM : 10123067
+    </p>
+    </div>
+</div>
+
+<script>
+    function openGame(Game) {
+    var i;
+    var x = document.getElementsByClassName("game");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+    document.getElementById(Game).style.display = "block";
+    }
+</script>
